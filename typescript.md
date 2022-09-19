@@ -44,3 +44,5 @@ would be replaced by
 ```
 let contactB : ContactType = "active";
 ```
+
+### 2. **keyof operator**
