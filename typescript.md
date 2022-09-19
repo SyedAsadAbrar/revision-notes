@@ -36,7 +36,7 @@ becomes
 ```
 type ContactType  = "active" | "inactive";
 ```
-- In code, this block
+- In code, this line of code
 ```
 let contactA : string = ContactType.Active;
 ```
