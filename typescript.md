@@ -3,4 +3,7 @@
 ## 1. **Type alias**
 
 Name given to a type e.g.
-```type PersonName = string;```
+
+```
+type PersonName = string;
+```
