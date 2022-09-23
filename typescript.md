@@ -45,7 +45,7 @@ would be replaced by
 let contactB : ContactType = "active";
 ```
 
-### 2. **keyof operator** [^2]
+### 2. **keyof type operator** [^2]
 
 ◼️ Takes an object type and produces a string or numeric literal union of its keys. 
 ```
@@ -74,7 +74,7 @@ function getValue<T>(source: T, propertyName: keyof T) {
 }
 ```
 
-### 3. **typeof operator** [^3]
+### 3. **typeof type operator** [^3]
 ◼️ Return the 'type' of a variable
 ```
 const a : string = "";
@@ -98,6 +98,9 @@ function save(source: typeof myType){
     max: number
 }
 ```
+
+### 3. **Record operator** [^3]
+◼️ Return the 'type' of a variable
 
 [^1]: [TypeScript Essential Training - Combining multiple types with union types](https://www.linkedin.com/learning/typescript-essential-training-14687057/combining-multiple-types-with-union-types?autoplay=true&resume=false&u=2323090)
 
