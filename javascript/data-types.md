@@ -1,11 +1,11 @@
-# Javascript
+# **Javascript**
 
-## Data types
+## **Data types**
 
 * ***Primitive*** - Simple
 * ***Object*** - Complex
 
-### Primitive data types
+### **Primitive data types**
 
 * ***Number*** - Floating point numbers, used for decimals and integers e.g. 23 (which is actually 23.0)
 * ***String*** - Sequence of characters, used for text

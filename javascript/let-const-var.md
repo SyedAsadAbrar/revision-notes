@@ -1,6 +1,6 @@
-# Javascript
+# **Javascript**
 
-## ```let```, ```const``` and ```var```
+## **```let```, ```const``` and ```var```**
 
 * Variables defined using ```let``` can be reassigned
 * Variables defined using ```const``` cannot be reassigned
