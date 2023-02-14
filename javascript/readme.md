@@ -7,3 +7,4 @@
 3. [let, const and var](let-const-var.md)
 4. [Type Conversion and Coercion](type-conversion-coercion.md)
 5. [Truthy and Falsy Values](truthy-falsy-values.md)
+6. [Equality Operators](equality-operators.md)
