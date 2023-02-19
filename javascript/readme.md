@@ -8,3 +8,4 @@
 4. [Type Conversion and Coercion](type-conversion-coercion.md)
 5. [Truthy and Falsy Values](truthy-falsy-values.md)
 6. [Equality And Logic Operators](equality-logic-operators.md)
+7. [Statements and Expressions](statements-expressions.md)
