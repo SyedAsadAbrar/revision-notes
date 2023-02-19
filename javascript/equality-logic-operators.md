@@ -19,6 +19,8 @@ There are two kinds of equality operators:
 * `===` - strict equality
   * Checks value and type so `18` and `'18'` would not return a truthy value
 
+> `switch` statement uses strict equality
+
 Similarly, we also have 'inequality' operators:
 
 * `!=`
