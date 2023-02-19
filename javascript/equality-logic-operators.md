@@ -29,3 +29,5 @@ Similarly, we also have 'inequality' operators:
 * `&&` - `AND` - Both must be true
 * `||` - `OR` - Either one of the two variables must be true
 * `!` - `NOT` - Inverts boolean value
+
+> `NOT` operator has more preference than `AND` or `OR`
