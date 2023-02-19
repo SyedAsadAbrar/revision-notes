@@ -9,3 +9,4 @@
 5. [Truthy and Falsy Values](truthy-falsy-values.md)
 6. [Equality And Logic Operators](equality-logic-operators.md)
 7. [Statements and Expressions](statements-expressions.md)
+8. [Functions](functions.md)
