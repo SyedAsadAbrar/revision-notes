@@ -23,3 +23,9 @@ Similarly, we also have 'inequality' operators:
 
 * `!=`
 * `!==`
+
+## **Logic Operators**
+
+* `&&` - `AND` - Both must be true
+* `||` - `OR` - Either one of the two variables must be true
+* `!` - `NOT` - Inverts boolean value
