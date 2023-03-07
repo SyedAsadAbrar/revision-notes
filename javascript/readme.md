@@ -10,3 +10,4 @@
 6. [Equality And Logic Operators](equality-logic-operators.md)
 7. [Statements and Expressions](statements-expressions.md)
 8. [Functions](functions.md)
+9. [Arrays](arrays.md)
