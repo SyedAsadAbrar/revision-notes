@@ -5,6 +5,7 @@
 * Piece of code which can be reused over and over again
 
 ```javascript
+// Function declaration
 function logger(str) {
   console.log('Logger function called' + str);
 }
@@ -17,7 +18,7 @@ logger('abc');   /// calling / running / invoking a function
 ### **Function Declarations vs Expressions**
 
 * Function declaration defines a function with specified parameters
-  * The functons are hoisted at the top so they can be used before they are declared
+  * The functions are hoisted at the top so they can be used before they are declared
 
 > In above example, `logger` is the ***function name***, `str` is the ***parameter*** and `'abc'` is the ***argument***.
 

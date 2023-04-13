@@ -42,7 +42,7 @@ obj.foo = () => console.log("foo");
 obj['foo'] = () => console.log("foo");
 ```
 
-* `this` keyword can be accessed inside of these functions
+* `this` keyword can be accessed inside of these functions (only if [function declaration or expression](functions.md) is used though)
 
 ```javascript
 const jonas = {
