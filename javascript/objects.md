@@ -30,3 +30,28 @@ obj.number = 1;
 obj['number'] = 1;
 ```
 
+### **Object Operations (Methods)**
+
+* Object can also have properties with a function value
+
+```javascript
+obj.foo = () => console.log("foo");
+
+// or
+
+obj['foo'] = () => console.log("foo");
+```
+
+* `this` keyword can be accessed inside of these functions
+
+```javascript
+const jonas = {
+  birthYear: 1997,
+  calcAge: function () {
+    return 2037 - this.birthYear;
+  }
+}
+
+console.log(jonas.calcAge());     // 40
+
+```
