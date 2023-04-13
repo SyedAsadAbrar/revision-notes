@@ -7,6 +7,8 @@
 
 ### **`for` loop**
 
+* for loop keeps running while condition is `TRUE`
+
 ```javascript
 console.log(`Lifting weights repetition 1 🏋🏼‍♀️`);
 console.log(`Lifting weights repetition 2 🏋🏼‍♀️`);
@@ -16,11 +18,22 @@ console.log(`Lifting weights repetition 5 🏋🏼‍♀️`);
 
 // or
 
-// for loop keeps running while condition is TRUE
 for (let rep = 1; rep <= 5; rep++) {
   console.log(`Lifting weights repetition ${rep} 🏋🏼‍♀️`);
 }
 ```
 
 * `continue` statement - to skip an iteration
-* `break` statement - break loop
+* `break` statement - completely terminate the loop
+
+### **`while` loop**
+
+* while loop keeps running while condition is `TRUE`
+
+```javascript
+let rep = 1;
+while(rep <= 5) {
+  console.log(`Lifting weights repetition ${rep} 🏋🏼‍♀️`);
+  rep++;
+}
+```
