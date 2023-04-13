@@ -42,12 +42,11 @@ arr[1] = 2;   // arr = ['test', 2, []];
 * Addition
   * `push` - Adds an element to end of array - `arr.push(1);`
   * `unshift` - Adds an element to start of array - `arr.unshift(1);`
-  > Both methods return length after addition
+  * Both methods return length after addition
 * Removal
   * `pop` - Removes an element from end of array - `arr.pop();`
   * `shift` - Removes an element from start of array - `arr.shift();`
-  > Both methods return element removed
+  * Both methods return element removed
 * `indexOf` - Returns index of element in array or `-1` if element not found in array - `arr.indexOf(1)`
 * `includes` - Returns a boolean value of the presence of an element in array - `arr.includes(1)`
-
-> `includes` is an ES6 method, it does strict checking and no type coercion
+  * `includes` is an ES6 method, it does strict checking and no type coercion
