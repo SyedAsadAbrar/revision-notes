@@ -5,8 +5,9 @@
 * To do repetitive tasks
 * Used to implement `DRY` - Don't Repeat Yourself
 
-```javascript
+### **`for` loop**
 
+```javascript
 console.log(`Lifting weights repetition 1 🏋🏼‍♀️`);
 console.log(`Lifting weights repetition 2 🏋🏼‍♀️`);
 console.log(`Lifting weights repetition 3 🏋🏼‍♀️`);
@@ -20,3 +21,6 @@ for (let rep = 1; rep <= 5; rep++) {
   console.log(`Lifting weights repetition ${rep} 🏋🏼‍♀️`);
 }
 ```
+
+* `continue` statement - to skip an iteration
+* `break` statement - break loop
