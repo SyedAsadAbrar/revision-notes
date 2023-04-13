@@ -56,3 +56,5 @@ const person = {
 console.log(jonas.calcAge());     // 26
 console.log(jonas.age);     // 26
 ```
+
+> Each element in Javascript is actually an object
