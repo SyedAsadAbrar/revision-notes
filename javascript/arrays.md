@@ -50,4 +50,4 @@ arr[1] = 2;   // arr = ['test', 2, []];
 * `indexOf` - Returns index of element in array or `-1` if element not found in array - `arr.indexOf(1)`
 * `includes` - Returns a boolean value of the presence of an element in array - `arr.includes(1)`
   * `includes` is an ES6 method
-  * It does strict checking and no type coercion
+  * It does strict checking and no [type coercion](type-conversion-coercion.md#type-coercion-rules)
