@@ -20,3 +20,20 @@ const arr = ['test', 'array', '1'];   // literal syntax
 
 console.log(arr.length);   // 3
 ```
+
+* Member variables can have different types as well
+
+```javascript
+const arr = ['test', 1, []];
+```
+
+* `arr` variable cannot be redefined again but individual members can be replaced
+
+```javascript
+const arr = ['test', 1, []];
+
+arr = [1];   // TypeError: Assignment to constant variable.
+
+arr[1] = 2;   // arr = ['test', 2, []];
+
+```
