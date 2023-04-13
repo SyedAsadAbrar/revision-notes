@@ -12,3 +12,4 @@
 8. [Functions](functions.md)
 9. [Arrays](arrays.md)
 10. [Objects](objects.md)
+11. [Loops](loops.md)
