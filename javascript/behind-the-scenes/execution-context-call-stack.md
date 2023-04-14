@@ -29,6 +29,12 @@
 
 ![Execution Context Detail in Javascript](../../javascript/images/js-execution-context-detail.png)
 
+## **Call Stack**
+
+* "Place" where execution contexts get stacked on top of each other, to keep track of where we are in the execution
+
+### **What happens when a function is called?**
+
 * Execution context of a function is moved onto the call stack when it starts executing and is popped off the stack when something is returned from it
 * When a function starts executing after its execution context is pushed to the call stack, the previous function from which it was called has its execution paused
 * Initially, the global execution context is pushed onto the stack so it is the last thing to pop off from the stack; it happens when we exit from the browser env
