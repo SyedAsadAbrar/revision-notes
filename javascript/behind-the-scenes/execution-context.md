@@ -11,4 +11,7 @@
 
 > **Top-level code** - Code which is not inside any function
 
-* Each function call has a new execution context created for it, which all together form the `call stack`
+* Each function call has a new execution context created for it
+* These execution contexts all together form the `call stack`
+
+![Execution Context in Javascript](../../javascript/images/js-execution-context.png)
