@@ -15,3 +15,19 @@
 * These execution contexts all together form the `call stack`
 
 ![Execution Context in Javascript](../../javascript/images/js-execution-context.png)
+
+### **Execution Context in detail**
+
+* Execution context of a function contains the following:
+  1. Variable Environment
+     1. `let`, `const` and `var` declarations
+     2. Functions
+     3. `arguments` object - Not available for arrow functions
+  2. Scope chain
+  3. `this` keyword - Not available for arrow functions
+* This is generated during "creation phase", right before execution
+
+![Execution Context Detail in Javascript](../../javascript/images/js-execution-context-detail.png)
+
+* Execution context of a function is moved onto the call stack when it starts executing and is popped off the stack when something is returned from it
+* Initially, the global execution context is pushed onto the stack so it is the last thing to pop off from the stack; it happens when we exit from the browser env
