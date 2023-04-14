@@ -36,7 +36,7 @@
 1. Code is parsed to form an `AST` (Abstract Syntax Tree)
 2. This AST is compiled into machine code
 3. The machine code is executed instantly (and is very unoptimized)
-4. This unoptimized code is recompiled multiple times to optimize it and replaces the previously used code.
+4. This unoptimized code is recompiled multiple times to optimize it and replaces the previously used code
 
 ![JIT Compilation in Javascript](../../javascript/images/jit-compilation.png)
 
