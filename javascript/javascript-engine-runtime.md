@@ -26,3 +26,20 @@
 > **Just-in-time (JIT) compilation** - Entire code is converted into machine code at once, then executed immediately.
 >
 > Javascript uses this approach.
+
+<details>
+
+<summary>
+  JIT Compilation in Javascript
+</summary>
+
+1. Code is parsed to form an `AST` (Abstract Syntax Tree)
+2. This AST is compiled into machine code
+3. The machine code is executed instantly (and is very unoptimized)
+4. This unoptimized code is recompiled multiple times to optimize it and replaces the previously used code.
+
+![JIT Compilation in Javascript](../javascript/images/jit-compilation.png)
+
+</details>
+
+*
