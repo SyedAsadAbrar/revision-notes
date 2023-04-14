@@ -7,7 +7,7 @@
 * Contains a `call stack` and a `heap`
   * Call stack has an execution context where code is executed
   * Heap is an object in memory where objects are stored
-![Javascript Engine Diagram](../javascript/images/js-engine.png)
+![Javascript Engine Diagram](../../javascript/images/js-engine.png)
 
 <details>
 
@@ -38,7 +38,7 @@
 3. The machine code is executed instantly (and is very unoptimized)
 4. This unoptimized code is recompiled multiple times to optimize it and replaces the previously used code.
 
-![JIT Compilation in Javascript](../javascript/images/jit-compilation.png)
+![JIT Compilation in Javascript](../../javascript/images/jit-compilation.png)
 
 </details>
 
@@ -50,6 +50,6 @@
   * Callback Queue
 * Event loop acts as intermediary between engine's call stack and callback queue
 
-![Javascript Runtime in Browser](../javascript/images/js-runtime-browser.png)
+![Javascript Runtime in Browser](../../javascript/images/js-runtime-browser.png)
 
-![Javascript Runtime in Node](../javascript/images/js-runtime-node.png)
+![Javascript Runtime in Node](../../javascript/images/js-runtime-node.png)
