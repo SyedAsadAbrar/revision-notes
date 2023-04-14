@@ -6,7 +6,7 @@ Javascript is a `high-level`, `garbage-collected`, `interpreted`, `object-orient
 
 * ***High-level***: Don't have to worry about complex stuff like memory management
 * ***Garbage-collected***: Automatic removal of old and unused objects from computer memory in order not to clog it with unnecessary code
-* ***Interpreted***: Code executed without being compiled into machine language, it is interpreted or `just-in-time compiled`
+* ***Interpreted***: Code executed without being compiled into machine language, javascript uses a mix between compilation and interpretation known as `just-in-time compiled`
 * ***Object-oriented***: Based on objects, for storing most kinds of data
 * ***Multi-paradigm***: Can use different styles of programming, such as `declarative` or `imperative`
 * ***Dynamically typed***: Types are not assigned to variable and can be changed at runtime
