@@ -4,7 +4,7 @@
 
 * Program which executes javascript code
   * e.g. V8 Engine for NodeJS and Google Chrome
-* Contains a `call stack` and a `heap`
+* Contains a **call stack** and a **heap**
   * Call stack has an execution context where code is executed
   * Heap is an object in memory where objects are stored
 ![Javascript Engine Diagram](../../javascript/images/js-engine.png)
@@ -33,7 +33,7 @@
   JIT Compilation in Javascript
 </summary>
 
-1. Code is parsed to form an `AST` (Abstract Syntax Tree)
+1. Code is parsed to form an **AST** (Abstract Syntax Tree)
 2. This AST is compiled into machine code
 3. The machine code is executed instantly (and is very unoptimized)
 4. This unoptimized code is recompiled multiple times to optimize it and replaces the previously used code

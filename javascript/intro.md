@@ -2,13 +2,13 @@
 
 ## **Definition**
 
-Javascript is a `high-level`, `garbage-collected`, `interpreted`, `object-oriented`, `multi-paradigm`, `dynamically typed`, `single-threaded` programming language with `first-class functions` and a non-blocking `event loop` concurrency model.
+Javascript is a **high-level**, **garbage-collected**, **interpreted**, **object-oriented**, **multi-paradigm**, **dynamically typed**, **single-threaded** programming language with **first-class functions** and a non-blocking **event loop** concurrency model.
 
 * ***High-level***: Don't have to worry about complex stuff like memory management
 * ***Garbage-collected***: Automatic removal of old and unused objects from computer memory in order not to clog it with unnecessary code
-* ***Interpreted***: Code executed without being compiled into machine language, javascript uses a mix between compilation and interpretation known as `just-in-time compiled`
+* ***Interpreted***: Code executed without being compiled into machine language, javascript uses a mix between compilation and interpretation known as **just-in-time compiled**
 * ***Object-oriented***: Based on objects, for storing most kinds of data
-* ***Multi-paradigm***: Can use different styles of programming, such as `declarative` or `imperative`
+* ***Multi-paradigm***: Can use different styles of programming, such as **declarative** or **imperative**
 * ***Dynamically typed***: Types are not assigned to variable and can be changed at runtime
 * ***Single-threaded***: Runs in a single thread so can only do one thing at a time
 * ***First-class functions***: Functions are treated as regular variables and can be passed as parameters to functions and return them from functions

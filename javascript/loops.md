@@ -3,11 +3,11 @@
 ## **Loops**
 
 * To do repetitive tasks
-* Used to implement `DRY` - Don't Repeat Yourself
+* Used to implement **DRY** - Don't Repeat Yourself
 
 ### **`for` loop**
 
-* for loop keeps running while condition is `TRUE`
+* for loop keeps running while condition is `true`
 
 ```javascript
 console.log(`Lifting weights repetition 1 🏋🏼‍♀️`);
@@ -28,7 +28,7 @@ for (let rep = 1; rep <= 5; rep++) {
 
 ### **`while` loop**
 
-* while loop keeps running while condition is `TRUE`
+* while loop keeps running while condition is `true`
 
 ```javascript
 let rep = 1;

@@ -7,12 +7,12 @@
 
 > Pizza coming in a delivery box with receipt and cutlery is a metaphor of execution context where pizza is the javascript code and the rest is the execution context
 
-* There is exactly **one** global execution context; created for `top-level code`
+* There is exactly **one** global execution context; created for **top-level code**
 
 > **Top-level code** - Code which is not inside any function
 
 * Each function call has a new execution context created for it
-* These execution contexts all together form the `call stack`
+* These execution contexts all together form the [**call stack**](#call-stack)
 
 ![Execution Context in Javascript](../../javascript/images/js-execution-context.png)
 
@@ -22,7 +22,7 @@
   1. Variable Environment
      1. `let`, `const` and `var` declarations
      2. Functions
-     3. `arguments` object - Not available for arrow functions
+     3. **arguments** object - Not available for arrow functions
   2. Scope chain
   3. `this` keyword - Not available for arrow functions
 * This is generated during "creation phase", right before execution
