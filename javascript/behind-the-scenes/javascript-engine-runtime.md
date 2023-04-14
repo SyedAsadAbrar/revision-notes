@@ -44,6 +44,12 @@
 
 ## **Javascript Runtime**
 
+* Consists of
+  * JS Engine
+  * Web APIs
+  * Callback Queue
+* Event loop acts as intermediary between engine's call stack and callback queue
+
 ![Javascript Runtime in Browser](../javascript/images/js-runtime-browser.png)
 
 ![Javascript Runtime in Node](../javascript/images/js-runtime-node.png)
