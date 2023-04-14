@@ -42,4 +42,8 @@
 
 </details>
 
-*
+## **Javascript Runtime**
+
+![Javascript Runtime in Browser](../javascript/images/js-runtime-browser.png)
+
+![Javascript Runtime in Node](../javascript/images/js-runtime-node.png)
