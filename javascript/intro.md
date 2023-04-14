@@ -2,11 +2,17 @@
 
 ## **Definition**
 
-Javascript is a high-level, object-oriented, multi-paradigm programming language.
+Javascript is a `high-level`, `garbage-collected`, `interpreted`, `object-oriented`, `multi-paradigm`, `dynamically typed`, `single-threaded` programming language with `first-class functions` and a non-blocking `event loop` concurrency model.
 
 * ***High-level***: Don't have to worry about complex stuff like memory management
+* ***Garbage-collected***: Automatic removal of old and unused objects from computer memory in order not to clog it with unnecessary code
+* ***Interpreted***: Code executed without being compiled into machine language, it is interpreted or `just-in-time compiled`
 * ***Object-oriented***: Based on objects, for storing most kinds of data
-* ***Multi-paradigm***: Can use different styles of programming, such as declarative or imperative
+* ***Multi-paradigm***: Can use different styles of programming, such as `declarative` or `imperative`
+* ***Dynamically typed***: Types are not assigned to variable and can be changed at runtime
+* ***Single-threaded***: Runs in a single thread so can only do one thing at a time
+* ***First-class functions***: Functions are treated as regular variables and can be passed as parameters to functions and return them from functions
+* ***Event loop***: A non-blocking model which executes long-running tasks in the background and puts them in the main thread when finished, a way to deal with the single-threaded property of javascript.
 
 ## **Role in Web Dev**
 
