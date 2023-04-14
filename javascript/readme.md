@@ -16,4 +16,4 @@
 12. [Javascript Behind the Scenes](/behind-the-scenes/index.md)
     1. [Javascript Engine and Runtime](/behind-the-scenes/javascript-engine-runtime.md)
     2. [Execution Context and Call Stack](/javascript/behind-the-scenes/execution-context-call-stack.md)
-    3. [Scope and Scope Chain](/javascript/behind-the-scenes/scope-chain.md)
+    3. [Scope and Scope Chain](/javascript/behind-the-scenes/scope-and-scope-chain.md)
