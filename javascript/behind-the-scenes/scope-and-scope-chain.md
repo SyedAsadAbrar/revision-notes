@@ -65,3 +65,10 @@ console.log(now);   // ReferenceError
 
 
 ![Scope Chain](../images/scope-chain.png)
+
+### **Scope Chain Vs. Call Stack**
+
+* Order in which functions are **written in the code** matters not the order in **which they are called** - Scope Chain
+* This is why, function `third` in the diagram below cannot access `c` and `b` variables since they are not part of `third`'s scope chain
+
+![Scope Chain Vs. Call Stack](../images/scope-chain-vs-call-stack.png)
