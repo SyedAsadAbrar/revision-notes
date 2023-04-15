@@ -60,5 +60,8 @@ console.log(now);   // ReferenceError
 * This can only happen in **one direction** that is outer scope cannot access the variables of inner scope
   * Two inner scopes (siblings) cannot access variables of each other as well
   * This is due to the rules defined by **Lexical Scoping**
+  * We can say that the scope chain only works **upwards**, not **sideways**
 * Also the variables are not **copied** but only **referenced**
-* Also
+
+
+![Scope Chain](../images/scope-chain.png)
