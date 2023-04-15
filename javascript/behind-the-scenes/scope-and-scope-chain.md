@@ -11,7 +11,7 @@
 ### 1. **Global Scope**
 
 * Outside of **any** function or block
-* Variables declared in global scope are accessible **everywhere**
+* Variables declared in global scope are accessible **everywhere** - so are called **global variables**
 
 ```javascript
 const me = 'Jonas';
@@ -58,4 +58,7 @@ console.log(now);   // ReferenceError
 
 * Inner scope trying to access variable not found in its scope and looks up variable in parent (or outer) scopes until it finds it - **variable lookup**
 * This can only happen in **one direction** that is outer scope cannot access the variables of inner scope
+  * Two inner scopes (siblings) cannot access variables of each other as well
+  * This is due to the rules defined by **Lexical Scoping**
 * Also the variables are not **copied** but only **referenced**
+* Also
