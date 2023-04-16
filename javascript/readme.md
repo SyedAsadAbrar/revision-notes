@@ -17,5 +17,7 @@
     1. [Javascript Engine and Runtime](/behind-the-scenes/javascript-engine-runtime.md)
     2. [Execution Context and Call Stack](/javascript/behind-the-scenes/execution-context-call-stack.md)
     3. [Scope and Scope Chain](/javascript/behind-the-scenes/scope-and-scope-chain.md)
+    4. [Hoisting](/javascript/behind-the-scenes/hoisting.md)
+
 
 <sub>Reference Course - [The Complete JavaScript Course 2023: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/)</sub>
