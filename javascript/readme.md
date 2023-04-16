@@ -18,6 +18,7 @@
     2. [Execution Context and Call Stack](/javascript/behind-the-scenes/execution-context-call-stack.md)
     3. [Scope and Scope Chain](/javascript/behind-the-scenes/scope-and-scope-chain.md)
     4. [Hoisting](/javascript/behind-the-scenes/hoisting.md)
+    5. [This Keyword](/javascript/behind-the-scenes/this-keyword.md)
 
 
 <sub>Reference Course - [The Complete JavaScript Course 2023: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/)</sub>
