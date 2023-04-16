@@ -28,8 +28,10 @@
 
 ```javascript
 console.log(`Jonas is a ${job}`);   // ReferenceError: Cannot access 'job' before initialization
+console.log(nationality);   // undefined
+var nationality = 'German';
 const age = 2037 - 1989;
-console.log(age);
+console.log(age);   // 48
 const job = 'teacher';
 console.log(x);   // ReferenceError: x is not defined
 ```
