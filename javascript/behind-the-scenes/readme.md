@@ -7,3 +7,4 @@
 3. [Scope and Scope Chain](/scope-and-scope-chain.md)
 4. [Hoisting](/hoisting.md)
 5. [This Keyword](/this-keyword.md)
+6. [Arrow Functions](/arrow-functions.md)
