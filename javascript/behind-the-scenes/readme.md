@@ -8,3 +8,4 @@
 4. [Hoisting](/hoisting.md)
 5. [This Keyword](/this-keyword.md)
 6. [Arrow Functions](/arrow-functions.md)
+7. [Primitives Vs. Objects](/primitive-vs-objects.md)
