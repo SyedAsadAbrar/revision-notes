@@ -10,4 +10,6 @@
 
 ![this keyword details](../images/this-keyword.png)
 
+> lexical `this` = `this` keyword of parent function
+
 > **`this`** does **NOT** point to the function itself, and also **NOT** its variable environment
