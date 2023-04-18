@@ -29,5 +29,19 @@
 ## **Higher-Order Functions (HOCs)**
 
 * A function that **receives** another function as an argument, that **returns** a new function, or **both**
+  * Function that **receives another function** e.g. an event listener is an HOC because it receives a callback function
+  * Function that **returns new function**
+
+  ```javascript
+  function count() {
+    let counter = 0;
+    return function() {
+      counter++;
+    }
+  };
+
+  // count is a HOC here
+  ```
+
 * This is only possible because of first-class functions
-  * i.e. this is a practical implementation of **First-Class Functions** (a theoretical concept)
+  * i.e. this is a practical implementation of **First-Class Functions** (which is a theoretical concept)
