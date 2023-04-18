@@ -26,4 +26,8 @@
   counter.inc.bind(someOtherObj);
   ```
 
-## **First-Class Functions**
+## **Higher-Order Functions (HOCs)**
+
+* A function that **receives** another function as an argument, that **returns** a new function, or **both**
+* This is only possible because of first-class functions
+  * i.e. this is a practical implementation of **First-Class Functions** (a theoretical concept)
