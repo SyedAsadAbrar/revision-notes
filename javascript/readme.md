@@ -24,6 +24,7 @@
 13. [Closer Look at Functions](/closer-look-at-functions/index.md)
     1. [Default Parameters](/closer-look-at-functions/default-parameters.md)
     2. [Passing Arguments](/closer-look-at-functions/passing-arguments.md)
+    3. [First-Class Functions](/closer-look-at-functions/first-class-functions.md)
 
 
 <sub>Reference Course - [The Complete JavaScript Course 2023: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/)</sub>
