@@ -21,6 +21,7 @@
     5. [This Keyword](/javascript/behind-the-scenes/this-keyword.md)
     6. [Arrow Functions](/javascript/behind-the-scenes/arrow-functions.md)
     7. [Primitives Vs. Objects](/javascript/behind-the-scenes/primitive-vs-objects.md)
+13. [Closer Look at Functions](/closer-look-at-functions/index.md)
 
 
 <sub>Reference Course - [The Complete JavaScript Course 2023: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/)</sub>
