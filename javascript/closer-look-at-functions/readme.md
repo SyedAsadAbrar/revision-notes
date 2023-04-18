@@ -2,4 +2,4 @@
 
 ## **Table of Contents**
 
-1.
+1. [Default Parameters](/default-parameters.md)
