@@ -16,6 +16,6 @@ request.send();
 
 request.addEventListener('load', function () {
   const [data] = JSON.parse(this.responseText);
-  console.log(data);
+  console.log(data);    // {name: 'Pakistan', topLevelDomain: Array(1), alpha2Code: 'PK', alpha3Code: 'PAK', callingCodes: Array(1), …}
 });
 ```
