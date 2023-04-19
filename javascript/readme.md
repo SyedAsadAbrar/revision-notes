@@ -28,6 +28,7 @@
     4. [Call, Apply and Bind Methods](/javascript/closer-look-at-functions/call-apply-bind.md)
     5. [Closures](/javascript/closer-look-at-functions/closures.md)
 14. [Asynchronous Javascript](/javascript/async-javascript/readme.md)
+    1. [AJAX](/javascript/async-javascript/ajax.md)
 
 
 <sub>Reference Course - [The Complete JavaScript Course 2023: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/)</sub>
