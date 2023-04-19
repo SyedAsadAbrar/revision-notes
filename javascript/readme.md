@@ -13,7 +13,7 @@
 9. [Arrays](arrays.md)
 10. [Objects](objects.md)
 11. [Loops](loops.md)
-12. [Javascript Behind the Scenes](/javascript/behind-the-scenes/index.md)
+12. [Javascript Behind the Scenes](/javascript/behind-the-scenes/readme.md)
     1. [Javascript Engine and Runtime](/javascript/behind-the-scenes/javascript-engine-runtime.md)
     2. [Execution Context and Call Stack](/javascript/behind-the-scenes/execution-context-call-stack.md)
     3. [Scope and Scope Chain](/javascript/behind-the-scenes/scope-and-scope-chain.md)
@@ -21,13 +21,13 @@
     5. [This Keyword](/javascript/behind-the-scenes/this-keyword.md)
     6. [Arrow Functions](/javascript/behind-the-scenes/arrow-functions.md)
     7. [Primitives Vs. Objects](/javascript/behind-the-scenes/primitive-vs-objects.md)
-13. [Closer Look at Functions](/javascript/closer-look-at-functions/index.md)
+13. [Closer Look at Functions](/javascript/closer-look-at-functions/readme.md)
     1. [Default Parameters](/javascript/closer-look-at-functions/default-parameters.md)
     2. [Passing Arguments](/javascript/closer-look-at-functions/passing-arguments.md)
     3. [First-Class Functions and HOCs](/javascript/closer-look-at-functions/first-class-functions-hocs.md)
     4. [Call, Apply and Bind Methods](/javascript/closer-look-at-functions/call-apply-bind.md)
     5. [Closures](/javascript/closer-look-at-functions/closures.md)
-14. [Asynchronous Javascript](/javascript/async-javascript/index.md)
+14. [Asynchronous Javascript](/javascript/async-javascript/readme.md)
     1.
 
 
