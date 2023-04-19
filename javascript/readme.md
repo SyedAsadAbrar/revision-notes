@@ -26,6 +26,7 @@
     2. [Passing Arguments](/javascript/closer-look-at-functions/passing-arguments.md)
     3. [First-Class Functions and HOCs](/javascript/closer-look-at-functions/first-class-functions-hocs.md)
     4. [Call, Apply and Bind Methods](/javascript/closer-look-at-functions/call-apply-bind.md)
+    5. [Closures](/javascript/closer-look-at-functions/closures.md)
 
 
 <sub>Reference Course - [The Complete JavaScript Course 2023: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/)</sub>
