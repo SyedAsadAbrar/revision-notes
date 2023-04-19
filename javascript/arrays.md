@@ -51,3 +51,4 @@ arr[1] = 2;   // arr = ['test', 2, []];
 * `includes` - Returns a boolean value of the presence of an element in array - `arr.includes(1)`
   * `includes` is an ES6 method
   * It does strict checking and no [type coercion](type-conversion-coercion.md#type-coercion-rules)
+* `isArray` - Returns a boolean value whether a passed value is an Array - `Array.isArray(arr)`
