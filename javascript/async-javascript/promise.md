@@ -11,3 +11,63 @@
 ### **Promise Lifecycle**
 
 ![Promise lifecycle](../images/promise-lifecycle.png)
+
+### **Consuming Promises**
+
+```javascript
+const getCountryData = country =>
+  fetch(`${baseUrl}/name/${country}`)
+    .then(response => response.json())
+    .then(data => renderCountry(data[0]));
+
+getCountryData('Pakistan');
+```
+
+> Using promises get rid of callback hell, not callbacks
+
+### **Promise Chaining**
+
+```javascript
+const getCountryData = country =>
+  fetch(`${baseUrl}/name/${country}`)
+    .then(response => response.json())
+    .then(data => {
+      renderCountry(data[0]);
+      console.log(data[0]);
+      const neighbour = data[0].borders?.[0];
+
+      if (!neighbour) return;
+
+      return fetch(`${baseUrl}/alpha/${neighbour}`);    // Returning a promise from promise
+    })
+    .then(response => response.json())    // Consumed here
+    .then(data => renderCountry(data, 'neighbour'));
+
+getCountryData('Pakistan');
+```
+
+### **Handling Rejected Promises**
+
+* Either we can use a `catch` method or pass a second argument to the `then` method to handle `rejected` promises
+
+```javascript
+const getCountryData = country =>
+  fetch(`${baseUrl}/name/${country}`)
+    .then(response => response.json())
+    .then(data => renderCountry(data[0]))
+    .catch(err => console.log(err));      // Method 1
+
+getCountryData('Pakistan');
+```
+
+```javascript
+const getCountryData = country =>
+  fetch(`${baseUrl}/name/${country}`)
+    .then(
+      response => response.json(),
+      err => console.log('err', err)      // Method 2
+    )
+    .then(data => renderCountry(data[0]));
+
+getCountryData('Pakistan');
+```
