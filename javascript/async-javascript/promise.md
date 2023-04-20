@@ -71,3 +71,18 @@ const getCountryData = country =>
 
 getCountryData('Pakistan');
 ```
+
+### **`finally`**
+
+* It is called at the **end** of a promise whether it is **successful or not**
+
+```javascript
+const getCountryData = country =>
+  fetch(`${baseUrl}/name/${country}`)
+    .then(response => response.json())
+    .then(data => renderCountry(data[0]))
+    .catch(err => console.log(err))
+    .finally(() => console.log('promise ended'));
+
+getCountryData('Pakistan');
+```
