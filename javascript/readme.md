@@ -30,6 +30,7 @@
 14. [Asynchronous Javascript](/javascript/async-javascript/readme.md)
     1. [AJAX](/javascript/async-javascript/ajax.md)
     2. [Promise](/javascript/async-javascript/promise.md)
+    3. [Event Loop](/javascript/async-javascript/event-loop.md)
 
 
 <sub>Reference Course - [The Complete JavaScript Course 2023: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/)</sub>
