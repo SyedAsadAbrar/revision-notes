@@ -89,6 +89,10 @@ getCountryData('Pakistan');
 
 ### **Creating Promises**
 
+* The `Promise` constructor takes in two arguments, a `resolve` and `reject` function
+* `resolve` is called when the promise is successful
+* `reject` is called when the promise is not successful
+
 ```javascript
 const lotteryPromise = new Promise(function (resolve, reject) {
   console.log('Lottery draw is happening 🔮');
@@ -111,6 +115,9 @@ lotteryPromise
 // Promisifying setTimeout
 const wait = function (seconds) {
   return new Promise(function (resolve) {
+    // setTimeout expects a callback, in this case
+    // which would be the `resolve` function.
+    // There is no need to reject in this scenario
     setTimeout(resolve, seconds * 1000);
   });
 };
@@ -144,4 +151,26 @@ wait(1)
 //     }, 1000);
 //   }, 1000);
 // }, 1000);
+```
+
+```javascript
+// Promisifying the Geolocation API
+
+// Before
+navigator.geolocation.getCurrentPosition(
+  position => console.log(position),
+  err => console.error(err)
+);
+
+// After
+const getPosition = function () {
+  return new Promise(function (resolve, reject) {
+    // navigator.geolocation.getCurrentPosition(
+    //   position => resolve(position),
+    //   err => reject(err)
+    // );
+    navigator.geolocation.getCurrentPosition(resolve, reject);
+  });
+};
+getPosition().then(pos => console.log(pos));
 ```
