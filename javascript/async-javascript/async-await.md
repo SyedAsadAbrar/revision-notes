@@ -2,4 +2,5 @@
 
 ## **Async/Await**
 
-* Introduced in ES2017
+* Introduced in **ES2017**
+* **Syntactic sugar** over consuming **promises**
