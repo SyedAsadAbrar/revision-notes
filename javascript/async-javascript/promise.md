@@ -174,3 +174,22 @@ const getPosition = function () {
 };
 getPosition().then(pos => console.log(pos));
 ```
+
+### **Running promises in Parallel**
+
+* `Promise` has a few methods with which we can run promises in parallel
+  * `all` - Will fulfill promise when all input promises are fulfilled. If any one promise fails, it short-circuits and rejects
+  * `race` - The returned promise settles (resolves or rejects) with the eventual value of the first input promise that settles
+  * `allSettled` - Will settle when all input promises are settled
+  * `any` - Will fulfill promise if any of the input promises are fulfilled. If all input promises fail, it will fail as well
+* They receive an array of promises, and return a promise with the results of each promise (as an array)
+* 
+
+```javascript
+const waitAll = await Promise.all([wait(1), wait(2), wait(3)]);
+console.log(waitAll);
+
+// or
+
+(Promise.all([wait(1), wait(2), wait(3)])).then(res => console.log(res))
+```
