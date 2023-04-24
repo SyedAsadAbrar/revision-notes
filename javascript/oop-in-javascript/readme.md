@@ -4,3 +4,4 @@
 
 1. [Overview](/javascript/oop-in-javascript/overview.md)
 2. [Prototypal Inheritance](/javascript/oop-in-javascript/prototypal-inheritance.md)
+3. [ES6 Classes](/javascript/oop-in-javascript/es6-classes.md)

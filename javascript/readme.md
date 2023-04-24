@@ -35,6 +35,7 @@
 15. [Object-Oriented Programming in Javascript](/javascript/oop-in-javascript/readme.md)
     1. [Overview](/javascript/oop-in-javascript/overview.md)
     2. [Prototypal Inheritance](/javascript/oop-in-javascript/prototypal-inheritance.md)
+    3. [ES6 Classes](/javascript/oop-in-javascript/es6-classes.md)
 
 
 <sub>Reference Course - [The Complete JavaScript Course 2023: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/)</sub>

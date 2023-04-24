@@ -19,3 +19,5 @@
 > To check if method is defined in constructor function or prototype - `jonas.hasOwnProperty('calcAge')` (in this case this would be false)
 
 > Prototype belongs to an object created by class, rather than a class
+
+> This is only true for **Constructor Functions** and **ES6 classes**
