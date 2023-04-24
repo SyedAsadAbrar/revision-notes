@@ -6,7 +6,9 @@
 * e.g. `create` is a static method on `Object`
 * These are **NOT** available on **instances**, only on **prototypes**
 
-### **Static Methods**
+<details>
+
+<summary>Static Methods</summary>
 
 * Method defined on a class, not instance of class - **Static Method**
 * For Javascript, a **method defined** on the **constructor** behaves like a static method
@@ -48,3 +50,4 @@ class User {
 }
 User.hey();
 ```
+</details>
