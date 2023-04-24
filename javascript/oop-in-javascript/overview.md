@@ -22,3 +22,54 @@
 * Behavior is delegated to the linked prototype object
 
 ![Prototypal Inheritance](/javascript/images/prototypal-inheritance.png)
+
+#### **Prototypal Inheritance in Javascript**
+
+* Three ways of implementing it:
+  * **Constructor Functions**:
+    * Technique to create objects from a function
+    * This is how built-in objects like Arrays, Maps or Sets are actually implemented
+  * **ES6 Classes**
+    * Modern alternative to constructor function syntax
+    * "Syntactic sugar": behind the scenes, ES6 classes work **exactly** like constructor functions
+    * ES6 classes do **NOT** behave like classes in "classical OOP"
+  * **`Object.create()`**
+    * The easiest and most straightforward way of linking an object to a prototype object
+
+##### **Constructor Functions**
+
+* Can be **defined** using a **function expression or declaration**, not an arrow function because it doesn't have `this` keyword
+* By convention, **constructor functions start** with a **capital letter**
+* To add a **method** to this "class", **use** the **`prototype` object**
+  * This way there would only be **one "copy"** of that method
+  * If it is defined in the constructor function, the same copy would persist in all instances of that class which is a bad way of doing it
+
+```javascript
+
+const Person = function(firstName, birthYear) {
+  this.firstName = firstName;
+  this.birthYear = birthYear;
+
+  // Never do this
+  // this.calcAge = function() {
+  //   console.log(2037 - this.birthYear);
+  // };
+};
+
+// 1. New {} is created
+// 2. function is called, this = {}
+// 3. {} is linked to prototype
+// 4. function automatically returns {}
+
+const jonas = new Person('Jonas', 1991);
+console.log(jonas);   // Person {firstName: "Jonas", birthYear: 1991}
+console.log(jonas instanceof Person);   // true
+
+// Prototypes
+// Right way to add a method
+Person.prototype.calcAge = function() {
+  console.log(2037 - this.birthYear);
+};
+
+jonas.calcAge();    // 46
+```
