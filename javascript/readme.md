@@ -33,7 +33,7 @@
     3. [Event Loop](/javascript/async-javascript/event-loop.md)
     4. [Async/Await](/javascript/async-javascript/async-await.md)
 15. [Object-Oriented Programming in Javascript](/javascript/oop-in-javascript/readme.md)
-    1.   
+    1. [Overview](/javascript/oop-in-javascript/overview.md)
 
 
 <sub>Reference Course - [The Complete JavaScript Course 2023: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/)</sub>
