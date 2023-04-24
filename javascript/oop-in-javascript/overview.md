@@ -51,6 +51,7 @@ const Person = function(firstName, birthYear) {
   this.birthYear = birthYear;
 
   // Never do this
+  // Instance method
   // this.calcAge = function() {
   //   console.log(2037 - this.birthYear);
   // };
