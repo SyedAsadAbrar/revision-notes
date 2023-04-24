@@ -34,6 +34,7 @@
     4. [Async/Await](/javascript/async-javascript/async-await.md)
 15. [Object-Oriented Programming in Javascript](/javascript/oop-in-javascript/readme.md)
     1. [Overview](/javascript/oop-in-javascript/overview.md)
+    2. [Prototypal Inheritance](/javascript/oop-in-javascript/prototypal-inheritance.md)
 
 
 <sub>Reference Course - [The Complete JavaScript Course 2023: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/)</sub>

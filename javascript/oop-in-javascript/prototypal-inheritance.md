@@ -1,0 +1,3 @@
+# **Javascript**
+
+## **Prototyal Inheritance**
