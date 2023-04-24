@@ -73,3 +73,7 @@ Person.prototype.calcAge = function() {
 
 jonas.calcAge();    // 46
 ```
+
+> To get prototype of object - `jonas.__proto__`
+
+> To check if method is defined in constructor function or prototype - `jonas.hasOwnProperty('calcAge')` (in this case this would be false)
