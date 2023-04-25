@@ -12,4 +12,4 @@
 * Variables defined can be reassigned
 * Should be avoided
 * Used before ES6
-* It is block-scoped as compared to function-scoped (which ```let``` is)
+* It is function-scoped as compared to block-scoped (which ```let``` is)
