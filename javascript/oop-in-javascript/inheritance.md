@@ -21,11 +21,14 @@ const Student = function(firstName, birthYear, course) {
 }
 
 // Linking prototypes
+// The prototype of a student will be the prototype of Person now
 Student.prototype = Object.create(Person.prototype);
 
 Student.prototype.introduce = function () {
   console.log(`My name is ${this.firstName} and I study ${course}`);
 }
+
+Student.prototype.constructor = Student;
 
 const mike = new Student('Mike', 2020, 'Computer Science');
 mike.calcAge();   // 17
