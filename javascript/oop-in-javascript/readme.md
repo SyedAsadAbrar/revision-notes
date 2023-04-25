@@ -8,3 +8,4 @@
 4. [Object.create](/javascript/oop-in-javascript/object.create.md)
 5. [Inheritance in Javascript](/javascript/oop-in-javascript/inheritance.md)
 6. [Encapsulation in Javascript](/javascript/oop-in-javascript/encapsulation.md)
+7. [Chaining Methods](/javascript/oop-in-javascript/chaining-methods.md)

@@ -24,7 +24,7 @@ class BankAccount {
     this.deposit(-val);
   }
 
-  get getPin() {
+  getPin() {
     return this._pin;
   }
 }
