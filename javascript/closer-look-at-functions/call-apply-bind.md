@@ -75,7 +75,7 @@ greetAsAsadWithHelloQuestion('How are you?');   // Hello, my name is Asad! How a
   const counter = {
     count: 0,
     inc() {
-      console.log(this); // <button class=​"increment">​+​</button>​
+      console.log(this);    // <button class=​"increment">​+​</button>​
       this.count++;
       console.log(this.count);
     },
