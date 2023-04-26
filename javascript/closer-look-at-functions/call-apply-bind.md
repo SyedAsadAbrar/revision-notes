@@ -94,7 +94,7 @@ greetAsAsadWithHelloQuestion('How are you?');   // Hello, my name is Asad! How a
 
   * Now, the function will work as expected
 
-* Another example of **partial explanation**
+* Another example of **partial application**
 
 ```javascript
 const addTax = (rate, value) => value + value * rate;
