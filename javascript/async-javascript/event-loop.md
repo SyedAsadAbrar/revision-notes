@@ -25,7 +25,7 @@
 * **Event loop** looks into the **call stack** and determines whether its **empty or not** (not including the global context)
 * If its **empty**, then event loop will take the **first callback** from callback queue and put it onto the **call stack** to be executed, this is called as an **event loop tick**
   * If there are **any queued microtasks** in the microtasks queue, they are **executed before** any **callback** in the callback queue is executed
-  * So, microstasks queue may starve callback queue
+  * So, microtasks queue may starve callback queue
 * Thus, **runtime manages async behaviour** and **JS engine** has **no sense of time**
   * **Event loop** decides which code should be **executed next**
   * **Engine** basically **executes** whatever its given
