@@ -32,7 +32,7 @@ whereAmI('Pakistan');
 * The function in which `await` keyword is used must be an `async` function i.e. it must have `async` keyword before definition
 * We can use a `try..catch` block to replace `catch` and `finally` methods on promises
 
-```javscript
+```javascript
 checkMail()
   .then((mail) => {
     console.log(mail);
