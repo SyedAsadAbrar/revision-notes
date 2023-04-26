@@ -47,12 +47,12 @@ checkMail()
 // becomes
 
 (async function() {
-    try {
-      const mail = await checkMail();
-    }
-    catch (err) {
-      console.error(err);
-    }
-    console.log('Experiment completed';)
+  try {
+    const mail = await checkMail();
+  }
+  catch (err) {
+    console.error(err);
+  }
+  console.log('Experiment completed';)
 })()
 ```
