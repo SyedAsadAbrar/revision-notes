@@ -48,10 +48,10 @@ checkMail()
 
 (async function() {
     try {
-    const mail = await checkMail();
+      const mail = await checkMail();
     }
     catch (err) {
-        console.error(err);
+      console.error(err);
     }
     console.log('Experiment completed';)
 })()
