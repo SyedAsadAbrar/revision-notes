@@ -40,7 +40,7 @@ arr[1] = 2;   // arr = ['test', 2, []];
 ### **Array Operations (Methods)**
 
 * Addition
-  * `push` - Adds an element to end of array - `arr.push(1);`
+  * `push` - Adds an element to end of array - `arr.push(1);` - modifies the original array
   * `unshift` - Adds an element to start of array - `arr.unshift(1);`
   * Both methods return length after addition
 * Removal
