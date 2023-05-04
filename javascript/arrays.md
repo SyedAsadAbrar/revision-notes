@@ -52,3 +52,4 @@ arr[1] = 2;   // arr = ['test', 2, []];
   * `includes` is an ES6 method
   * It does strict checking and no [type coercion](type-conversion-coercion.md#type-coercion-rules)
 * `isArray` - Returns a boolean value whether a passed value is an Array - `Array.isArray(arr)`
+* `concat` - Returns a new array with the result of merging two arrays - `arr1.concat(arr2)` - does not mutate original array
