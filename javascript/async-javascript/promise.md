@@ -183,7 +183,6 @@ getPosition().then(pos => console.log(pos));
   * `allSettled` - Will settle when all input promises are settled
   * `any` - Will fulfill promise if any of the input promises are fulfilled. If all input promises fail, it will fail as well
 * They receive an array of promises, and return a promise with the results of each promise (as an array)
-* 
 
 ```javascript
 const waitAll = await Promise.all([wait(1), wait(2), wait(3)]);

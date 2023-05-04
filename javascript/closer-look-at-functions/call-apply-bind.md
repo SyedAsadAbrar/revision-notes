@@ -75,7 +75,7 @@ greetAsAsadWithHelloQuestion('How are you?');   // Hello, my name is Asad! How a
   const counter = {
     count: 0,
     inc() {
-      console.log('this', this);
+      console.log(this);    // <button class=​"increment">​+​</button>​
       this.count++;
       console.log(this.count);
     },
@@ -94,7 +94,7 @@ greetAsAsadWithHelloQuestion('How are you?');   // Hello, my name is Asad! How a
 
   * Now, the function will work as expected
 
-* Another example of **partial explanation**
+* Another example of **partial application**
 
 ```javascript
 const addTax = (rate, value) => value + value * rate;

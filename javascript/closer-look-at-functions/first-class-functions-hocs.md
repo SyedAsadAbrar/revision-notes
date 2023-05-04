@@ -2,7 +2,7 @@
 
 ## **First-Class Functions**
 
-* Javscript treats functions as **first-class citizens**
+* Javascript treats functions as **first-class citizens**
 * This means that functions are **simply values**
 * Functions are just another **"type" of object**
   * Functions can be **stored as variables or properties**
