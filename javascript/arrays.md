@@ -56,4 +56,4 @@ arr[1] = 2;   // arr = ['test', 2, []];
 * `sort` - Sorts an array based on some comparator function, mutates the original array - `arr.sort((a, b) => a - b)`
   * This example is to sort numbers in an ascending order
   * The comparator function takes two arguments (a and b) and returns a `< -1` value if we need to sort a before b, `> 1` value if b before a and `0` if the original order needs to be maintained
-  * Comparator function is optional, and if omitted, the array elements are converted to strings, then sorted according to each character's Unicode code point value.
+  * Comparator function is optional, and if omitted, the array elements are converted to strings, then sorted according to each character's Unicode code point value
