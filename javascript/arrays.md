@@ -53,3 +53,7 @@ arr[1] = 2;   // arr = ['test', 2, []];
   * It does strict checking and no [type coercion](type-conversion-coercion.md#type-coercion-rules)
 * `isArray` - Returns a boolean value whether a passed value is an Array - `Array.isArray(arr)`
 * `concat` - Returns a new array with the result of merging two arrays - `arr1.concat(arr2)` - does not mutate original array
+* `sort` - Sorts an array based on some comparator function, mutates the original array - `arr.sort((a, b) => a - b)`
+  * This example is to sort numbers in an ascending order
+  * The comparator function takes two arguments (a and b) and returns a `< -1` value if we need to sort a before b, `> 1` value if b before a and `0` if the original order needs to be maintained
+  * Comparator function is optional, and if omitted, the array elements are converted to strings, then sorted according to each character's Unicode code point value.
