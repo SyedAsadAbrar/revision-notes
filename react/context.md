@@ -62,4 +62,10 @@ Few alternatives before trying out context:
 2. Extract components and pass JSX as children to them 
    1. This reduces the number of layers between the component specifying the data and the one that needs it
 
+### **Usecases**
+
+* Theming
+* Routing
+* Managing state (alongwith reducers for complex state)
+
 [^1]: [Context Example from React Documentation](https://react.dev/learn/passing-data-deeply-with-context)
