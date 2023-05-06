@@ -106,3 +106,42 @@ const [tasks, dispatch] = useReducer(tasksReducer, initialTasks);
 
 // dispatch functions are defined here
 ```
+
+### **Combining reducers and context**
+
+* When an app grows, passing **state** and **context** to tens or hundreds of components is cumbersome
+* The solution to this is to pass `state` and `dispatch` using the **context**
+* To provide state and the dispatch function to components below:
+    1. Create two contexts (for state and for dispatch functions)
+    2. Provide both contexts from the component that uses the reducer
+    3. Use either context from components that need to read them
+
+```javascript
+import { createContext, useReducer } from 'react';
+
+export const TasksContext = createContext(null);
+export const TasksDispatchContext = createContext(null);
+
+export function TasksProvider({ children }) {
+    const [tasks, dispatch] = useReducer(
+        tasksReducer,
+        initialTasks
+    );
+
+    return (
+        <TasksContext.Provider value={tasks}>
+            <TasksDispatchContext.Provider value={dispatch}>
+                {children}
+            </TasksDispatchContext.Provider>
+        </TasksContext.Provider>
+    );
+}
+
+function tasksReducer(tasks, action) {
+  // reducer code here
+}
+
+const initialTasks = [
+  // initial state here
+];
+```
