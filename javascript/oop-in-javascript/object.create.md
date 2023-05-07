@@ -66,7 +66,7 @@ const PersonProto = {
 };
 
 const steven = Object.create(PersonProto);
-console.log(steven);
+console.log(steven);    // {}
 steven.init('Steven', 2002);
 steven.calcAge();   // 35
 ```
