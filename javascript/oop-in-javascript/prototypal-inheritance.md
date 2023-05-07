@@ -11,7 +11,7 @@
   * The new object is returned from the constructor function call
 * If a method isn't present on an object, it will "look up" in the Prototype of the object and will call the method if found - **Prototypal Inheritance/Delegation** using **Prototypal chain**
   * `Object.prototype` is the "base class" of all prototypes so it is on the top of the prototype chain
-  * A prototype is also an object so it also a prototype i.e. `Object.prototype`
+  * A prototype is also an object so it also has a prototype i.e. `Object.prototype`
   * Prototype of **Object** is `null`
 
 > To get prototype of object - `jonas.__proto__`
