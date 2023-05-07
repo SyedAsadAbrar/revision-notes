@@ -12,7 +12,7 @@
 * `+` operator converts everything to string and then concetenates
 
 ```javascript
-'23' + 1 + '2' = 2312
+'23' + 1 + '2' = '2312'
 ```
 
 * `-`, `*` and `/` operators convert to numbers and perform operations
