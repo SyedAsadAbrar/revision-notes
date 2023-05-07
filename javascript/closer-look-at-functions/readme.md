@@ -7,3 +7,4 @@
 3. [First-Class Functions and HOCs](/javascript/closer-look-at-functions/first-class-functions-hocs.md)
 4. [Call, Apply and Bind Methods](/javascript/closer-look-at-functions/call-apply-bind.md)
 5. [Closures](/javascript/closer-look-at-functions/closures.md)
+6. [Currying](/javascript/closer-look-at-functions/currying.md)
