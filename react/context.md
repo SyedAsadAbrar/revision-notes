@@ -5,6 +5,7 @@
 * Information is passed in React via **props**
 * It can become **inconvenient** and **verbose** if there are **many components in the middle**, or if many components in your app need the **same information**
 * The nearest common ancestor could be far removed from the components that need data and **state** needs to be **lifted up high** - **prop drilling**
+  * This means a change at the top of this "prop chain", would cause all the child components to re-render
 * **`Context`** lets the parent component make some information available to any **component in the tree below** it without passing it explicitly through props
 
 ### **To pass context** [^1]

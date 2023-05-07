@@ -9,7 +9,7 @@
   * They tell **how** the **state should change** in response to an action
   * **Does not specify** exact **sequence of operations** or **control flow**
   * It takes previous state and an action, returns new state based ona ction type and payload
-* Reducers are **pure functions**
+* Reducers are **pure functions** [^1]
 * Each action describes a **single user interaction**, even if that leads to **multiple changes in the data**
 
 ### **Move from setting state to dispatching actions**\
@@ -145,3 +145,5 @@ const initialTasks = [
   // initial state here
 ];
 ```
+
+[^1]: Don't alter input data and do not depend on external state (like a database, DOM, or global variable) and consistently provides the same output for the same input is a “pure” function
