@@ -4,7 +4,7 @@
 
 * **Class** is a 'blueprint', **instance** is an object created from the class - **Class-instance** model
 * **Four principles** of OOP:
-  * **Abstraction** - Ignoring or hiding details that **don't matter**, operating as a **black box**, allowing us to get a **overview** persepctive of the *thing* we're implementing
+  * **Abstraction** - Ignoring or hiding details that **don't matter**, operating as a **black box**, allowing us to get a **overview** perspective of the *thing* we're implementing
   * **Encapsulation** - Keeping properties and methods **private** inside the class, so they are **not accessible from outside the class**
     * Some methods can be **exposed** as a public interface (API)
     * This prevents external code from manipulating internal properties/states
