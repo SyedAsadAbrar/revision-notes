@@ -13,7 +13,7 @@
 * Should be **avoided** [^1]
 * Used before ES6
 * It is **function-scoped** as compared to block-scoped (which ```let``` and ```const``` are)
-* **Unique** behaviour of `var` in `for` loop when **`setTimeout`** is used [^2]
+* **Unique** behaviour of `var` in `for` loop when **`setTimeout`** is used [^2] [^3]
   * This is due to the fact that `var` is function-scoped, is **hoisted** to the top of the function and is **accessible outside the loop**
   * Since **`setTimeout`** accepts a **callback** which is called after the loop is completed, it see the **final value** of `index` which it tries to access it which in the case of `var` is `5`
   * When **declared** using `let` keyword, it has **block scope**, and is only accessible **within the loop**
@@ -55,3 +55,4 @@ alert(msg); // msg becomes global variable so can be accessed here
 
 [^1]: [Variable Declaration in JavaScript: var, let or const?](!https://dev.to/zhiyueyi/variable-declaration-in-javascript-var-let-or-const-1789)
 [^2]: [How the let, const, and var Keywords Work in JavaScript](!https://www.freecodecamp.org/news/understanding-let-const-and-var-keywords/)
+[^3]: [Why let and var bindings behave differently using setTimeout function?](!https://stackoverflow.com/questions/31285911/why-let-and-var-bindings-behave-differently-using-settimeout-function)
