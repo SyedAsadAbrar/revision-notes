@@ -13,3 +13,9 @@
 * Should be avoided
 * Used before ES6
 * It is block-scoped as compared to function-scoped (which ```let``` is)
+
+### **Dynamic Typing**
+
+* Javascript is a **loosely typed** language
+* No need to **specify** data type
+* Value can be updated after initialization - **dynamic typing**
