@@ -16,6 +16,7 @@ There are two kinds of equality operators:
 
 * `==` - loose equality
   * Only checks value i.e. `18` and `'18'` would return a **truthy** value
+  * This performs **type conversion** under the hood
 * `===` - strict equality
   * Checks value and type so `18` and `'18'` would return a **falsy** value
 
