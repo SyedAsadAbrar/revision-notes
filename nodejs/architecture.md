@@ -8,5 +8,5 @@
   - This is why **Javascript** code may **behave differently** on **different browsers**
 - **Each browser** has a **Javascript engine** which is used to execute our Javscript code
   - `v8` for **Chrome**, `SpiderMonkey` for **Firefox** and `Chakra` for **Internet Explorer**
-- **Node** is a **runtime environment** which uses the **v8 engine** (used inside C++ code) to run **Javascript code outside of browser**
+- **Node** is a **runtime environment** which uses the **v8 engine** (inside C++ code) to run **Javascript code outside of browser**
   - It also includes **other objects** needed **to run Javascript code** such as `fs` or `http` modules forming the **runtime environment**
