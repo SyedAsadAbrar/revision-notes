@@ -64,7 +64,7 @@ class Student extends Person {
   }
 
   introduce() {
-    console.log(`My name is  ${this.fullName} and I study ${this.course}`);
+    console.log(`My name is ${this.fullName} and I study ${this.course}`);
   }
 
   // polymorphism - overridden fucntion
