@@ -20,3 +20,5 @@
 <sub>Undefined is also a value and a type i.e. an undefined variable has type ```undefined``` as well.</sub>
 
 <sub>A variable with ```null``` value doesnt follow this behaviour (due to a known "bug" in JS which was never corrected), it is considered to have type ```object```.</sub>
+
+<sub>[What is the difference between null and undefined in JavaScript?](https://stackoverflow.com/questions/5076944/what-is-the-difference-between-null-and-undefined-in-javascript)</sub>
